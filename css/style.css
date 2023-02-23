@@ -1251,7 +1251,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact {
   padding: 60px 0;
 }
-
+.contact-icon {
+  width: 80px;
+}
 #contact .contact-info {
   margin-bottom: 20px;
   text-align: center;

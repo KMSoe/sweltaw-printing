@@ -22,6 +22,10 @@
     <!-- Bootstrap CSS File -->
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Libraries CSS Files -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css"
+      rel="stylesheet"
+    />
     <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
     <link href="lib/animate/animate.min.css" rel="stylesheet" />
     <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet" />
@@ -830,104 +834,37 @@
             </p> -->
           </div>
 
-          <div class="row contact-info">
-            <div class="col-md-4">
-              <div class="contact-address">
-                <h3>Address</h3>
-
-                <address>
-                  No; 116, 51st street (middle block), Pazundaung Township,
-                  Yangon, Myanmar
-                </address>
-              </div>
-            </div>
-
-            <div class="col-md-4">
-              <div class="contact-phone">
-                <h3>Phone Number</h3>
-
-                <p>(+95)01-294976, (+95)09-73255086</p>
-              </div>
-            </div>
-
-            <div class="col-md-4">
-              <div class="contact-email">
-                <h3>Email</h3>
-
-                <p>services@sweltawprinting.com</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="form">
-            <div id="sendmessage">Your message has been sent. Thank you!</div>
-
-            <div id="errormessage"></div>
-
-            <form
-              action="http://sweltawprinting.com/index.php"
-              class="contactForm"
-              method="post"
-              role="form"
+          <div class="md:grid md:grid-cols-3 items-start py-6">
+            <div
+              class="flex flex-col items-center justify-center space-y-3 py-4"
             >
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <input
-                    class="form-control"
-                    data-msg="Please enter at least 4 chars"
-                    data-rule="minlen:4"
-                    id="name"
-                    name="name"
-                    placeholder="Your Name"
-                    type="text"
-                  />
-                  <div class="validation"></div>
-                </div>
-
-                <div class="form-group col-md-6">
-                  <input
-                    class="form-control"
-                    data-msg="Please enter a valid email"
-                    data-rule="email"
-                    id="email"
-                    name="email"
-                    placeholder="Your Email"
-                    type="email"
-                  />
-                  <div class="validation"></div>
-                </div>
-              </div>
-
-              <div class="form-group">
-                <input
-                  class="form-control"
-                  data-msg="Please enter at least 8 chars of subject"
-                  data-rule="minlen:4"
-                  id="subject"
-                  name="subject"
-                  placeholder="Subject"
-                  type="text"
-                />
-                <div class="validation"></div>
-              </div>
-
-              <div class="form-group">
-                <textarea
-                  class="form-control"
-                  data-msg="Please write something for us"
-                  data-rule="required"
-                  name="message"
-                  placeholder="Message"
-                  rows="5"
-                ></textarea>
-
-                <div class="validation"></div>
-              </div>
-
-              <div class="text-center">
-                <button type="submit">Send Message</button>
-              </div>
-            </form>
+              <img src="./icons/phone.png" alt="Phone" class="contact-icon" />
+              <h4 class="uppercase text-xl font-bold my-3">Address</h4>
+              <p class="tracking-wide text-lg text-center">
+                No; 116, 51st street <br />(middle block), <br />Pazundaung
+                Township, <br />
+                Yangon, Myanmar
+              </p>
+            </div>
+            <div
+              class="flex flex-col items-center justify-center space-y-3 py-4"
+            >
+              <img src="./icons/phone.png" alt="Phone" class="contact-icon" />
+              <h4 class="uppercase text-xl font-bold my-3">Phone</h4>
+              <p class="tracking-wide text-lg text-center">
+                (+95)01-294976 <br />
+                (+95)09-73255086
+              </p>
+            </div>
+            <div
+              class="flex flex-col items-center justify-center space-y-3 py-4"
+            >
+              <img src="./icons/email.png" alt="Email" class="contact-icon" />
+              <h4 class="uppercase text-xl font-bold my-3">Email</h4>
+              <p class="tracking-wide text-lg text-center">
+                services@sweltawprinting.com
+              </p>
+            </div>
           </div>
         </div>
       </section>
