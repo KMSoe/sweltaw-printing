@@ -663,22 +663,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   z-index: 10;
 }
 
-#about .about-col {
+#steps .about-col {
   background: #fff;
   border-radius: 0 0 4px 4px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   margin-bottom: 20px;
 }
 
-#about .about-col .img {
+#steps .about-col .img {
   position: relative;
 }
 
-#about .about-col .img img {
+#steps .about-col .img img {
   border-radius: 4px 4px 0 0;
 }
 
-#about .about-col .icon {
+#steps .about-col .icon {
   width: 64px;
   height: 64px;
   padding-top: 8px;
@@ -693,22 +693,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.3s;
 }
 
-#about .about-col i {
+#steps .about-col i {
   font-size: 36px;
   line-height: 1;
   color: #fff;
   transition: 0.3s;
 }
 
-#about .about-col:hover .icon {
+#steps .about-col:hover .icon {
   background-color: #fff;
 }
 
-#about .about-col:hover i {
+#steps .about-col:hover i {
   color: #18d26e;
 }
 
-#about .about-col h2 {
+#steps .about-col h2 {
   color: #000;
   text-align: center;
   font-weight: 700;
@@ -717,17 +717,18 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 40px 0 12px 0;
 }
 
-#about .about-col h2 a {
+#steps .about-col h2 a {
   color: #000;
 }
 
-#about .about-col h2 a:hover {
+#steps .about-col h2 a:hover {
   color: #18d26e;
 }
 
-#about .about-col p {
+#steps .about-col p {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 130%;
+  text-align: center;
   color: #333;
   margin-bottom: 0;
   padding: 0 20px 20px 20px;
