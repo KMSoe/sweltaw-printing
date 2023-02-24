@@ -740,7 +740,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #services {
-  background: #fff;
+  background: #FFFBBF;
   background-size: cover;
   padding: 60px 0 40px 0;
 }
@@ -749,37 +749,21 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 30px;
 }
 
-#services .icon {
-  float: left;
-}
-
-#services .icon i {
-  color: #18d26e;
-  font-size: 36px;
-  line-height: 1;
-  transition: 0.5s;
-}
-
-#services .title {
-  margin-left: 60px;
+#services .box .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
-}
-
-#services .title a {
-  color: #111;
+  text-align: center;
 }
 
 #services .box:hover .title a {
   color: #18d26e;
 }
 
-#services .description {
+#services .box .description {
   font-size: 14px;
-  margin-left: 60px;
-  line-height: 24px;
-  margin-bottom: 0;
+  line-height: 120%;
+  text-align: center;
 }
 
 /* Call To Action Section
