@@ -170,6 +170,10 @@ h6 {
   width:60%;
 }
 
+section {
+  padding: 30px 40px;
+}
+
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
@@ -746,17 +750,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .box {
-  margin-bottom: 30px;
+  border-radius: 15px;
+  border: 2px solid rgba(0, 0, 0, 0.08);
+  padding: 0 0 10px 0;
 }
 
 #services .box .title {
   font-weight: 700;
-  margin-bottom: 15px;
+  margin: 15px 0;
   font-size: 18px;
   text-align: center;
 }
 
-#services .box:hover .title a {
+#services .box:hover .title {
   color: #18d26e;
 }
 
