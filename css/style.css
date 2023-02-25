@@ -167,11 +167,12 @@ h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
-  width:60%;
+  width: 60%;
 }
 
 section {
   padding: 30px 40px;
+  width: 100%;
 }
 
 /*--------------------------------------------------------------
@@ -194,7 +195,7 @@ section {
 }
 
 #intro .carousel-item::before {
-  content: '';
+  content: "";
   background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
   height: 100%;
@@ -566,7 +567,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .section-header h3::before {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 120px;
@@ -577,7 +578,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .section-header h3::after {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 40px;
@@ -612,7 +613,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #featured-services .box-bg {
-  background-image: linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%);
+  background-image: linear-gradient(
+    0deg,
+    #000000 0%,
+    #242323 50%,
+    #000000 100%
+  );
 }
 
 #featured-services i {
@@ -654,7 +660,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   right: 0;
@@ -694,7 +700,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50%;
   text-align: center;
   border: 4px solid #fff;
-  left: calc( 50% - 32px);
+  left: calc(50% - 32px);
   bottom: -30px;
   transition: 0.3s;
 }
@@ -744,9 +750,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #services {
-  background: #FFFBBF;
+  background: #fffbbf;
   background-size: cover;
   padding: 60px 0 40px 0;
+}
+
+#services .service-card:hover h5 {
+  color: #18d26e;
 }
 
 #services .box {
@@ -776,7 +786,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #call-to-action {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../img/call-to-action-bg.jpg) fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -840,7 +851,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #skills .progress-bar {
   width: 1px;
   text-align: left;
-  transition: .9s;
+  transition: 0.9s;
 }
 
 /* Facts Section
@@ -854,7 +865,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #facts::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   right: 0;
@@ -1411,7 +1422,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top h4::before,
 #footer .footer-top h4::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   bottom: 0;
