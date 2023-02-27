@@ -124,7 +124,7 @@
     /* MOBILE NAVIGATION */
     .btn-mobile-nav {
       display: block;
-      z-index: 100001;
+      z-index: 100001 !important;
     }
   
     .main-nav {
@@ -162,7 +162,7 @@
       pointer-events: auto;
       visibility: visible;
       transform: translateX(0);
-      z-index: 100000;
+      z-index: 100000 !important;
     }
   
     .nav-open .icon-mobile-nav[name="close-outline"] {
