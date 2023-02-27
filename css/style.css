@@ -902,18 +902,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Portfolio Section
 --------------------------------*/
 
-#portfolio {
+#products {
   padding: 60px 0;
 }
 
-#portfolio #portfolio-flters {
+#products #products-flters {
   padding: 0;
   margin: 5px 0 35px 0;
   list-style: none;
   text-align: center;
 }
 
-#portfolio #portfolio-flters li {
+#products #products-flters li {
   cursor: pointer;
   margin: 15px 15px 15px 0;
   display: inline-block;
@@ -928,32 +928,32 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: all 0.3s ease-in-out;
 }
 
-#portfolio #portfolio-flters li:hover,
-#portfolio #portfolio-flters li.filter-active {
+#products #products-flters li:hover,
+#products #products-flters li.filter-active {
   background: #18d26e;
   color: #fff;
 }
 
-#portfolio #portfolio-flters li:last-child {
+#products #products-flters li:last-child {
   margin-right: 0;
 }
 
-#portfolio .portfolio-wrap {
+#products .product-wrap {
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   transition: 0.3s;
 }
 
-#portfolio .portfolio-wrap:hover {
+#products .product-wrap:hover {
   box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.16);
 }
 
-#portfolio .portfolio-item {
+#products .product-item {
   position: relative;
   height: 360px;
   overflow: hidden;
 }
 
-#portfolio .portfolio-item figure {
+#products .product-item figure {
   background: #000;
   overflow: hidden;
   /* height: 240px; */
@@ -962,13 +962,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0;
 }
 
-#portfolio .portfolio-item figure:hover img {
+#products .product-item figure:hover img {
   opacity: 0.4;
   transition: 0.3s;
 }
 
-#portfolio .portfolio-item figure .link-preview,
-#portfolio .portfolio-item figure .link-details {
+#products .product-item figure .link-preview,
+#products .product-item figure .link-details {
   position: absolute;
   display: inline-block;
   opacity: 0;
@@ -981,44 +981,44 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.2s linear;
 }
 
-#portfolio .portfolio-item figure .link-preview i,
-#portfolio .portfolio-item figure .link-details i {
+#products .product-item figure .link-preview i,
+#products .product-item figure .link-details i {
   padding-top: 6px;
   font-size: 22px;
   color: #333;
 }
 
-#portfolio .portfolio-item figure .link-preview:hover,
-#portfolio .portfolio-item figure .link-details:hover {
+#products .product-item figure .link-preview:hover,
+#products .product-item figure .link-details:hover {
   background: #18d26e;
 }
 
-#portfolio .portfolio-item figure .link-preview:hover i,
-#portfolio .portfolio-item figure .link-details:hover i {
+#products .product-item figure .link-preview:hover i,
+#products .product-item figure .link-details:hover i {
   color: #fff;
 }
 
-#portfolio .portfolio-item figure .link-preview {
+#products .product-item figure .link-preview {
   left: calc(50% - 38px);
   top: calc(50% - 18px);
 }
 
-#portfolio .portfolio-item figure .link-details {
+#products .product-item figure .link-details {
   right: calc(50% - 38px);
   top: calc(50% - 18px);
 }
 
-#portfolio .portfolio-item figure:hover .link-preview {
+#products .product-item figure:hover .link-preview {
   opacity: 1;
   left: calc(50% - 44px);
 }
 
-#portfolio .portfolio-item figure:hover .link-details {
+#products .product-item figure:hover .link-details {
   opacity: 1;
   right: calc(50% - 44px);
 }
 
-#portfolio .portfolio-item .portfolio-info {
+#products .product-item .product-info {
   background: #fff;
   text-align: center;
   padding: 30px;
@@ -1026,7 +1026,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 0 0 3px 3px;
 }
 
-#portfolio .portfolio-item .portfolio-info h4 {
+#products .product-item .product-info h4 {
   font-size: 18px;
   line-height: 1px;
   font-weight: 700;
@@ -1034,15 +1034,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-bottom: 0;
 }
 
-#portfolio .portfolio-item .portfolio-info h4 a {
+#products .product-item .product-info h4 a {
   color: #333;
 }
 
-#portfolio .portfolio-item .portfolio-info h4 a:hover {
+#products .product-item .product-info h4 a:hover {
   color: #18d26e;
 }
 
-#portfolio .portfolio-item .portfolio-info p {
+#products .product-item .product-info p {
   padding: 0;
   margin: 0;
   color: #b8b8b8;
