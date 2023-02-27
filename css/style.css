@@ -1261,7 +1261,7 @@ section {
 /* BELOW 1344px (Smaller desktops) */
 /**************************/
 
-@media (max-width: 84em) {
+/* @media (max-width: 84em) {
   .hero {
     max-width: 120rem;
   }
@@ -1273,15 +1273,14 @@ section {
   .gallery {
     grid-template-columns: repeat(2, 1fr);
   }
-}
+} */
 
 /**************************/
 /* BELOW 1200px (Landscape Tablets) */
 /**************************/
 
-@media (max-width: 75em) {
+/* @media (max-width: 75em) {
   html {
-    /* 9px / 16px  */
     font-size: 56.25%;
   }
 
@@ -1313,15 +1312,14 @@ section {
   .testimonials-container {
     padding: 9.6rem 3.2rem;
   }
-}
+} */
 
 /**************************/
 /* BELOW 944px (Tablets) */
 /**************************/
 
-@media (max-width: 59em) {
+/* @media (max-width: 59em) {
   html {
-    /* 8px / 16px = 0.5 = 50% */
     font-size: 50%;
   }
 
@@ -1340,7 +1338,6 @@ section {
     width: 60%;
   }
 
-  /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
     z-index: 100001;
@@ -1362,17 +1359,13 @@ section {
     justify-content: center;
     transition: all 0.5s ease-in;
 
-    /* Hide navigation */
-    /* Allows NO transitions at all */
-    /* display: none; */
-
-    /* 1) Hide it visually */
+   
     opacity: 0;
 
-    /* 2) Make it unaccessible to mouse and keyboard */
+
     pointer-events: none;
 
-    /* 3) Hide it from screen readers */
+
     visibility: hidden;
   }
 
@@ -1401,12 +1394,12 @@ section {
   .main-nav-link:visited {
     font-size: 3rem;
   }
-}
+} */
 
 /**************************/
 /* BELOW 544px (Phones) */
 /**************************/
-@media (max-width: 34em) {
+/* @media (max-width: 34em) {
   .section-hero {
     padding: 2.4rem 0 6.4rem 0;
   }
@@ -1422,7 +1415,7 @@ section {
   .logos img {
     height: 1.2rem;
   }
-}
+} */
 
 /* 
   - Font sizes (px)
@@ -1436,7 +1429,7 @@ section {
 /* Fixing Safari flexbox gap */
 /**************************/
 
-.no-flexbox-gap .main-nav-list li:not(:last-child) {
+/* .no-flexbox-gap .main-nav-list li:not(:last-child) {
   margin-right: 4.8rem;
 }
 
@@ -1483,4 +1476,4 @@ section {
     margin-right: 0;
     margin-bottom: 4.8rem;
   }
-}
+} */
