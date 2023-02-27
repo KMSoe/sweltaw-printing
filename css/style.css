@@ -1626,7 +1626,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: #cf711f;
+  color: #18d26e;
 }
 
 .main-nav-link.nav-cta:link,
@@ -1634,12 +1634,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 1.2rem 2.4rem;
   border-radius: 9px;
   color: #fff;
-  background-color: #e67e22;
+  background-color: #18d26e;
 }
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-  background-color: #cf711f;
+  background-color: #18d26e;
 }
 
 /* MOBILE */
