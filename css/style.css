@@ -124,7 +124,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 
-#header {
+/* #header {
   padding: 30px 0;
   height: 92px;
   position: fixed;
@@ -136,7 +136,6 @@ h6 {
 }
 
 #header.header-scrolled {
-  /* background: rgba(0, 0, 0, 0.9); */
   background: rgba(242, 240, 240, 0.9);
   padding: 20px 0;
   height: 72px;
@@ -161,14 +160,13 @@ h6 {
 #header #logo h1 a:hover {
   color: #000;
   padding-left: 10px;
-  /*border-left: 4px solid #18d26e;*/
 }
 
 #header #logo img {
   padding: 0;
   margin: 0;
   width: 60%;
-}
+} */
 
 section {
   padding: 30px 40px;
@@ -1596,7 +1594,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #fdf2e9;
 
   /* Because we want header to be sticky later */
-  height: 9.6rem;
+  height: 8.4rem;
   padding: 0 4.8rem;
   position: relative;
 }
