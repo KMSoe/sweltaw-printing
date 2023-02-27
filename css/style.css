@@ -247,7 +247,6 @@ section {
 }
 
 /* Nav Meu Styling */
-
 .nav-menu a {
   padding: 0 8px 10px 8px;
   text-decoration: none;
@@ -298,7 +297,6 @@ section {
 }
 
 /* Mobile Nav Toggle */
-
 #mobile-nav-toggle {
   position: fixed;
   right: 0;
@@ -319,7 +317,6 @@ section {
 }
 
 /* Mobile Nav Styling */
-
 #mobile-nav {
   position: fixed;
   top: 0;
