@@ -3451,7 +3451,7 @@ section {
 # Responsive Media Queries
 --------------------------------------------------------------*/
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   #contact .contact-address,
   #contact .contact-phone,
   #contact .contact-email {
@@ -3464,13 +3464,13 @@ section {
   }
 }
 
-@media (min-width: 992px) {
+@media only screen and (min-width: 992px) {
   #testimonials .testimonial-item p {
     width: 80%;
   }
 }
 
-@media (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
   #header #logo {
     padding-left: 60px;
   }
@@ -3489,7 +3489,7 @@ section {
   }
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
   }
