@@ -28,7 +28,7 @@
 
   <!-- Main Stylesheet File -->
   <link href="css/output.css" rel="stylesheet" />
-  <link href="css/query.css" rel="stylesheet" />
+  <!-- <link href="css/query.css" rel="stylesheet" /> -->
 
   <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
@@ -37,7 +37,7 @@
 </head>
 
 <body>
-  <header class="header">
+  <!-- <header class="header">
     <a href="#">
       <img class="logo" alt="Sweltaw Printing" src="Logo.png" />
     </a>
@@ -58,13 +58,33 @@
       <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
       <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
     </button>
-  </header>
+  </header> -->
   <!-- #header -->
+  <header id="header">
+    <div class="container-fluid">
+      <div class="pull-left" id="logo">
+        <h1>
+          <a class="scrollto" href="#intro"><img alt="" src="Logo.png" /></a>
+        </h1>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#intro">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Product</a></li>
+          <li><a href="#team">Client</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
   <!--==========================
     Intro Section
   ============================-->
-  <section id="intro" class="section-hero">
+  <section id="intro">
     <div class="intro-container">
       <div class="carousel slide carousel-fade" data-ride="carousel" id="introCarousel">
         <ol class="carousel-indicators"></ol>
