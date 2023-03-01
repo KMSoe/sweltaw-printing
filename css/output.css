@@ -2787,6 +2787,7 @@ section {
   .main-nav-link:link,
   .main-nav-link:visited {
     font-size: 12px;
+    padding: 8px 3px;
   }
 }
 
