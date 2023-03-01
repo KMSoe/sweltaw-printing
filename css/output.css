@@ -2780,7 +2780,7 @@ section {
   }
 }
 
-@media only screen and (max-width: 568px) {
+@media only screen and (max-width: 640px) {
   html {
     /* 8px / 16px = 0.5 = 50% */
     font-size: 50%;
