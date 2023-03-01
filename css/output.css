@@ -2884,10 +2884,6 @@ section {
   position: relative;
 }
 
-#steps .about-col .img img {
-  border-radius: 4px 4px 0 0;
-}
-
 #steps .about-col .icon {
   width: 100px;
   height: 100px;
