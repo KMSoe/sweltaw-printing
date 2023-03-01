@@ -2889,17 +2889,25 @@ section {
 }
 
 #steps .about-col .icon {
-  width: 64px;
-  height: 64px;
+  width: 80px;
+  height: 80px;
   padding-top: 8px;
-  position: absolute;
-  background-color: #18d26e;
   border-radius: 50%;
-  text-align: center;
   border: 4px solid #fff;
   left: calc(50% - 32px);
+  margin-top: -60px;
   bottom: -30px;
   transition: 0.3s;
+  position: relative;
+}
+
+#steps .about-col .icon img {
+  width: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
 }
 
 #steps .about-col i {
@@ -2907,14 +2915,6 @@ section {
   line-height: 1;
   color: #fff;
   transition: 0.3s;
-}
-
-#steps .about-col:hover .icon {
-  background-color: #fff;
-}
-
-#steps .about-col:hover i {
-  color: #18d26e;
 }
 
 #steps .about-col h2 {
@@ -3145,6 +3145,22 @@ section {
 
 .contact-icon {
   width: 80px;
+}
+
+.address-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 80%;
+  background-color: #18d26e;
+  position: relative;
+}
+
+.address-icon img {
+  width: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #contact .contact-info {
